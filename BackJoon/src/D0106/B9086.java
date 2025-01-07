@@ -9,10 +9,13 @@ public class B9086 {
 		
 		int a = sc.nextInt();
 		
+	
+		
 		for(int i = 0; i < a; i++) {
 			String b = sc.next();
 			System.out.print(b.charAt(0));
-			System.out.println(b.charAt(i));
+			System.out.println(b.charAt(b.length()-1));
+
 		}
 		
 		
@@ -20,3 +23,4 @@ public class B9086 {
 	}
 
 }
+//			System.out.println(b.charAt(b.length()));
