@@ -48,6 +48,7 @@ public class B9012Practice {
 		}
 		for(int i = 0; i < a; i++) {
 			System.out.println(Array[i]);
+			
 		}
 		
 	}
