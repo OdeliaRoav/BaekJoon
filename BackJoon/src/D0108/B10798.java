@@ -26,7 +26,7 @@ public class B10798 {
 		{
 			for(int j=0; j<5; j++)
 			{
-				if(charArr[j][i] != 0)
+				if(charArr[j][i] != 0) //char 형에서는 0이 null 값을 대신한다.
 				{
 					sb.append(charArr[j][i]);
 				}
