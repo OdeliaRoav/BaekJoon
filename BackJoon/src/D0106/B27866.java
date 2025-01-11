@@ -12,7 +12,7 @@ public class B27866 {
 		
 		System.out.print(a.charAt(b-1));
 		
-		
+		////
 	}
 
 }
