@@ -14,6 +14,6 @@ public class B1271 {
         System.out.println(a.divide(b));
         System.out.println(a.remainder(b));
 
-
+///
     }
 }
