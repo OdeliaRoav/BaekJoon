@@ -14,12 +14,12 @@ public class B2869 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
-        int v = Integer.parseInt(st.nextToken());
+        int a = Integer.parseInt(st.nextToken()); //낮에 올라가는 높이
+        int b = Integer.parseInt(st.nextToken()); //잘 때 감소하는 높이
+        int v = Integer.parseInt(st.nextToken()); //목표 높이
         
-        int tmp1 = v - a;
-        int tmp2 = a - b;
+        int tmp1 = v - a; //목표 - 상승
+        int tmp2 = a - b; //상승 - 감소
         
         int day;
         
@@ -35,7 +35,7 @@ public class B2869 {
     }
 }
 
-/*
+/* 시간 초과 버전
 int a = Integer.parseInt(st.nextToken());
 int b = Integer.parseInt(st.nextToken());
 int c = Integer.parseInt(st.nextToken());
