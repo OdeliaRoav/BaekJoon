@@ -15,7 +15,11 @@ public class B18185 {
 			Array[i] = sc.nextInt();
 		}
 		
-		
+		for(int i = 0; i < a; i++) {
+			if(Array[i]>0) {
+				
+			}
+		}
 		
 		
 	}
