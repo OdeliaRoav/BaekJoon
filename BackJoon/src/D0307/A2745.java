@@ -11,7 +11,7 @@ public class A2745 {
 		int b = sc.nextInt();
 		
 		System.out.println(Integer.parseInt(a,b));
-		
+		//Integer.parseInt() :  String타입을 int로 변경해줌.
 	}
 
 }
