@@ -37,8 +37,16 @@ public class B9506 {
 				d = false;
 			}
 			
-			if(d = false) {
+			if(!d) {
 				System.out.println(a + " is NOT perfect.");
+			}
+			else {
+				System.out.print(a + " = ");
+				for(int i = 0; i < count-2; i++) {
+					System.out.print(Array[i] + " + ");
+				}
+				System.out.print(Array[count-2]);
+				
 			}
 			
 			
