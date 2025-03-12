@@ -9,14 +9,21 @@ public class B9506 {
 		
 		while(true) {
 			int a = sc.nextInt();
+			if(a == -1) {
+				break;
+			}
+			
 			int count = 0;
 			
 			int Array[] = new int[a];
 			
 			for(int i = 0; i<a; i++) {
-				
-				
-				
+				if(a%i == 0) {
+					Array[i] = i+1;
+				}	
+				else if ( a == i ) {
+					continue;
+				}
 			}
 			
 			
