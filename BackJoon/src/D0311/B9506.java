@@ -45,7 +45,7 @@ public class B9506 {
 				for(int i = 0; i < count-2; i++) {
 					System.out.print(Array[i] + " + ");
 				}
-				System.out.print(Array[count-2]);
+				System.out.println(Array[count-2]);
 				
 			}
 			
