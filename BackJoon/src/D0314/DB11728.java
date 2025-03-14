@@ -31,7 +31,7 @@ public class DB11728 {
             }
         }
 
-        
+
         while (i < a) {
             result[k++] = Array[i++];
         }
