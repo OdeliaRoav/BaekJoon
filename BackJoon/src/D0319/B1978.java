@@ -21,7 +21,10 @@ public class B1978 {
 	        	if(a%j == 0) {
 					count ++;
 				}
-			}
+	        	  if(a%j==0){
+	                    break;
+	                }
+	        	  }
 				
 		}
 		
