@@ -13,15 +13,19 @@ public class B1978 {
 		int count = 0;
 		
 		
+		
 		for(int i = 0; i<Array.length; i++) {
 			int b = sc.nextInt();
 			
-			
-			
-			
+			for(int j = 2; j <= a/2; j++) {
+	        	if(a%j == 0) {
+					count ++;
+				}
+			}
+				
 		}
 		
-		
+		System.out.println(count-1);		
 		
 		
 	}
