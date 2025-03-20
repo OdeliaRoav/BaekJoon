@@ -11,8 +11,20 @@ public class B2581 {
 		int b = sc.nextInt();
 		
 		
+		int sum = 0;
+		
+		for(int i = a; i<=b; i++) {
+			if(a%i == 0) {
+				sum = sum+i;
+			}
+        	  if(a%i==0){
+                    break;
+                }
+        	  }
+		}
+		
 		
 		
 	}
 
-}
+
