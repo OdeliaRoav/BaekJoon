@@ -3,29 +3,20 @@ package D0321;
 import java.util.Scanner;
 
 public class B10988 {
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		String a = sc.next();
-		char Array[] = new char[a.length()];
-		int count = 0;
+		String str = sc.next();
+
+		int len = str.length();
+		int ans = 1;
 		
-		
-		if(a.length()%2 == 0) {
-			System.out.print(0);
-		}
-		else {
-			for(int i = 0; i<a.length()/2; i++) {
-				Array[i] = a.charAt(i);
+		for(int i=0;i<len/2;i++) {
+			if(str.charAt(i)!=str.charAt(len-1-i)) {
+				ans = 0;
 			}
-			for(int i = a.length(); i>a.length()/2; i--) {
-				if(a.charAt(i) == 
-			}
-			
 		}
-		
+		System.out.println(ans);
 		
 	}
-
 }
