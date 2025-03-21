@@ -20,7 +20,7 @@ public class B10988 {
 				Array[i] = a.charAt(i);
 			}
 			for(int i = a.length(); i>a.length()/2; i--) {
-				
+				if(a.charAt(i) == 
 			}
 			
 		}
