@@ -8,6 +8,8 @@ public class B1254 {
 		Scanner sc = new Scanner(System.in);
 		
 		
+		String s = sc.next();
+		
 	}
 
 }
