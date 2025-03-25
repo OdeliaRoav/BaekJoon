@@ -18,5 +18,6 @@ public class B10988 {
 		}
 		System.out.println(ans);
 		
+		
 	}
 }
