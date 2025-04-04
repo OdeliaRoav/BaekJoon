@@ -14,19 +14,23 @@ public class A2525 {
 		
 		int sum = min + time;
 		
-		if(sum>=60) {
+		if(sum == 60) {
+			sum = 0;
+			hour = hour +1;
+		}
+		else if(sum>60) {
 			sum = sum - 60;
-			hour = hour + 1;
-			
-			if(hour>=24) {
-				hour = 0;
+			hour = hour +1;
+			if(sum == 60) {
+				hour = hour + 1;
+				sum = 0;
 			}
 		}
 		
-		if(sum == 60) {
-			sum = 0;
-			hour = hour + 1;
+		if(hour >= 24) {
+			hour = 0;
 		}
+		
 		
 		System.out.print(hour + " " + sum);
 		
