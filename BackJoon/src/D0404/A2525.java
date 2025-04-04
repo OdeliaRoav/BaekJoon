@@ -14,11 +14,11 @@ public class A2525 {
 		
 		int c = sc.nextInt();
 		
-		int total = a*60 + b;
-		b = b + c;
+		int total = a * 60 + b;
+		total = total + c;
 		
-		int hour = (b / 60) % 24;
-	    int minute = b % 60;
+		int hour = (total / 60) % 24;
+	    int minute = total % 60;
 		
 	    System.out.print(hour + " " + minute);
 		
