@@ -7,32 +7,20 @@ public class A2525 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int hour = sc.nextInt();
-		int min = sc.nextInt();
+		//전부 분으로 만들어서 합친 뒤 나누기
 		
-		int time = sc.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
-		int sum = min + time;
+		int c = sc.nextInt();
 		
-		if(sum == 60) {
-			sum = 0;
-			hour = hour +1;
-		}
-		else if(sum>60) {
-			sum = sum - 60;
-			hour = hour +1;
-			if(sum == 60) {
-				hour = hour + 1;
-				sum = 0;
-			}
-		}
+		int total = a*60 + b;
+		b = b + c;
 		
-		if(hour >= 24) {
-			hour = 0;
-		}
+		int hour = (b / 60) % 24;
+	    int minute = b % 60;
 		
-		
-		System.out.print(hour + " " + sum);
+	    System.out.print(hour + " " + minute);
 		
 	}
 
