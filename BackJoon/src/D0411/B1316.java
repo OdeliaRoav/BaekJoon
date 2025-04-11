@@ -17,7 +17,10 @@ public class B1316 {
 
 		}
 		
+		int count = 0;
+		
 		for(int i = 0; i<a; i++) {
+			char c = b[i].charAt(0);
 			for(int j = 0; j<b.length; j++) {
 				
 			}
