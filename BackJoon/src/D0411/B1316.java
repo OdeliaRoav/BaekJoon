@@ -23,6 +23,7 @@ public class B1316 {
 					}
 				}
 
+				
 				check[now - 'a'] = true;
 			}
 
