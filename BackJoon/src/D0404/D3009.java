@@ -15,7 +15,6 @@ public class D3009 {
             x[i] = sc.nextInt();
             y[i] = sc.nextInt();
         }
-
         
         int a, b;
 
