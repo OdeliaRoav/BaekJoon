@@ -16,6 +16,7 @@ public class D3009 {
             y[i] = sc.nextInt();
         }
 
+        
         int a, b;
 
         if (x[0] == x[1]) {
